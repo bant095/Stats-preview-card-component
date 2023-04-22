@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: auto;
+    background: hsl(233, 47%, 7%);
+    font-family: 'Inter', 'Lexend Deca', sans-serif;
+    
+}
+
+.section {
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 85%;
+    height: 400px;
+    margin: 50px 0px 20px 70px;
+}
+
+.section-left {
+    text-align: left;
+    color: white;
+    padding-left: 50px;
+}
+
+
+.section-left .business-content h1 {
+    padding: 0 150px 20px 0;
+    font-weight: 700;
+}
+h1 span {
+    color: hsl(277, 64%, 61%);
+}
+
+.section-left .business-content p {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 90px 30px 0px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+}
+
+.data .company {
+    padding-right: 60px;
+}
+
+.data .company h2{
+    text-transform: lowercase;
+}
+
+.data .company p{
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 5px;
+    line-break: 20px;
+}
+
+.data .templates {
+    padding-right: 60px;
+}
+
+.data .templates p{
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 8px;
+    line-break: 20px;
+}
+
+
+.data .queries {
+    padding-right: 30px;
+}
+
+.data .queries p{
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 5px;
+    line-break: 20px;
+}
+
+
+.section-right{
+    height: 400px;
+    align-items: right;
+    display: flex;  
+    background-image: url(./images/image-header-desktop.jpg);
+    background: hsl(277, 64%, 61%);
+    opacity: 0.2;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat, repeat;
+}
+
+
